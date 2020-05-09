@@ -31,7 +31,7 @@ function App() {
         <div style={{ animation: "fadeIn 0.5s" }}>
           <Navigation></Navigation>
           <Home scrollHandler={scrollTo}></Home>
-          <div id="About">{/* <About></About> */}</div>
+          <div id="About">{<About></About>}</div>
         </div>
       )}
     </>

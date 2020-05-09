@@ -12,15 +12,15 @@ const Teaser = ({ scrollHandler }) => {
     <div className="teaser">
       <div className="flex_teaser">
         <div className="mitte">
-          <h4 className="teaser_text">Willkommen bei Renovering.</h4>
+          <h4 className="teaser_text">Welcome on Salermoon.</h4>
           <h1 className="teaser_text" style={{ fontSize: "60px" }}>
-            Ich renoviere Ihre Webseite.
+            We sell hyped items from Travis Scott.
           </h1>
           <div className="teaser_text teaser_text_spezial">
-            Nichts ist mächtiger als eine Idee zur richtigen Zeit.
+            We are locatet in Switzerland and shipp worldwide.
           </div>
           <div onClick={handleClick} className="button text-xl cursor-pointer">
-            Mehr erfahren
+            GO SHOPPING
           </div>
         </div>
       </div>
